@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  engine:
+    image: ghcr.io/code-elevate/engine
+    container_name: engine
+    restart: always
+    ports:
+      - 2000:2000
+    volumes:
+      - ./Engine/data/engine/packages:/engine/packages
+    tmpfs:
+      - /engine/jobs:exec,uid=1000,gid=1000,mode=711
+      - /tmp:exec
+
+  backend:
+    image: ghcr.io/code-elevate/backend
+    container_name: backend
+    restart: always
+    env_file:
+      - ./Backend/.env
+    ports:
+      - 8080:${PORT}
