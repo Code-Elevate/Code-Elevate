@@ -24,7 +24,7 @@ This system is designed to be deployed as a Docker container. It is recommended 
 ### After system dependencies are installed, clone this repository:
 
 ```sh
-git clone https://github.com/Code-Elevate/Code-Elevate
+git clone --recurse-submodules https://github.com/Code-Elevate/Code-Elevate
 ```
 
 ### Navigate to the repository
