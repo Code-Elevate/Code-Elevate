@@ -4,12 +4,12 @@ CodeElevate is a coding contest platform where you can create and participate in
 
 ## Hosted Links
 
-| Hosting       | Link                                                                              |
-| ------------- | --------------------------------------------------------------------------------- |
-| Frontend      | [code-elevate.gopalsaraf.com](https://code-elevate.gopalsaraf.com/)               |
-| Backend       | [code-elevate.gopalsaraf.com/api](https://code-elevate.gopalsaraf.com/api/)       |
-| Engine        | [code-elevate.gopalsaraf.com/engine](https://code-elevate.gopalsaraf.com/engine/) |
-| Documentation | [code-elevate.gopalsaraf.com/docs](https://code-elevate.gopalsaraf.com/docs/)     |
+|    Hosting    |                                       Link                                        |
+| :-----------: | :-------------------------------------------------------------------------------: |
+|   Frontend    |        [code-elevate.gopalsaraf.com](https://code-elevate.gopalsaraf.com/)        |
+|    Backend    |    [code-elevate.gopalsaraf.com/api](https://code-elevate.gopalsaraf.com/api/)    |
+|    Engine     | [code-elevate.gopalsaraf.com/engine](https://code-elevate.gopalsaraf.com/engine/) |
+| Documentation |   [code-elevate.gopalsaraf.com/docs](https://code-elevate.gopalsaraf.com/docs/)   |
 
 ## Features
 
