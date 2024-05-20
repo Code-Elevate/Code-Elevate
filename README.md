@@ -2,17 +2,14 @@
 
 CodeElevate is a coding contest platform where you can create and participate in coding contests. You can create contests, add problems, and participate in contests. You can also view the leaderboard of the contests.
 
-## Hosted Version
+## Hosted Links
 
-A hosted version of this platform is available at [CodeElevate](https://code-elevate.gopalsaraf.com/).
-
-### Frontend - [CodeElevate Frontend](https://code-elevate.gopalsaraf.com/)
-
-### Backend - [CodeElevate Backend](https://code-elevate.gopalsaraf.com/api/)
-
-### Engine - [CodeElevate Engine](https://code-elevate.gopalsaraf.com/engine/)
-
-### Documentation - [CodeElevate Documentation](https://code-elevate.gopalsaraf.com/docs/)
+| Hosting       | Link                                                                              |
+| ------------- | --------------------------------------------------------------------------------- |
+| Frontend      | [code-elevate.gopalsaraf.com](https://code-elevate.gopalsaraf.com/)               |
+| Backend       | [code-elevate.gopalsaraf.com/api](https://code-elevate.gopalsaraf.com/api/)       |
+| Engine        | [code-elevate.gopalsaraf.com/engine](https://code-elevate.gopalsaraf.com/engine/) |
+| Documentation | [code-elevate.gopalsaraf.com/docs](https://code-elevate.gopalsaraf.com/docs/)     |
 
 ## Features
 
@@ -29,9 +26,12 @@ This system is designed to be deployed as a Docker container. It is recommended 
 
 ### Host System Package Dependencies
 
+- Git
 - Docker
 - Docker Compose
 - Node.js
+
+**Note**: For detailed instructions on how to install these dependencies, [click here](EC2.md).
 
 ### After system dependencies are installed, clone this repository:
 
@@ -47,12 +47,6 @@ cd Code-Elevate
 
 ### Edit the .env file to configure the backend
 
-#### Navigate to the backend directory
-
-```sh
-cd Backend
-```
-
 #### Rename the `.env.example` file to `.env`
 
 ```sh
@@ -66,12 +60,6 @@ nano .env
 ```
 
 While editing the `.env` file, make sure to fill in the REQUIRED fields. Without these fields, the backend will not work.
-
-### Navigate back to the root directory
-
-```sh
-cd ..
-```
 
 ### Start the system
 
